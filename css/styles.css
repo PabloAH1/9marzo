@@ -1,0 +1,71 @@
+body{
+    font-family: 'Hubballi', cursive;
+   
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background-color: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding:10px;
+    border-radius:5px;
+    width: 23%;
+    box-sizing: border-box;
+  
+}
+.card {
+    background-color: transparent;
+}
+.list-group-item {
+    background-color: transparent;
+}
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: #00dac7;
+}
+@media(max-width:1070px){
+    .columna{
+        width: 45%;
+        margin-top: 20px;
+        
+    }
+}
+@media(max-width:600px){
+    .columna{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 350px) {
+    .card-columns {
+        column-count: 4; 
+    }
+}
